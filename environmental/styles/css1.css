@@ -1,9 +1,13 @@
-body {
-    margin: 0 0 0;
-    background-color: #FFFFFF;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background: #D3D3D3;
 }
 .topnav {
-    background-color: #696969;
+    background-color: #333;
     overflow: hidden;
 }
 
@@ -13,12 +17,12 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .topnav a:hover {
-    background-color: #FFFFFF;;
+    background-color: #FFFFFF;
     color: black;
 }
 
@@ -28,8 +32,8 @@ body {
     border: none;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 17px;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -46,24 +50,126 @@ body {
     }
 }
 
-div.header {
-    width: 100%;
-    height: 600px;
-    position: static;
+header {
+  background: #696969;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  height: 100px;
 }
 
-.image_header {
-    width: 100%;
-    height: 600px;
+
+.header_animation {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-size: 30px;
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+    typing 3.5s steps(25, end),
+    blink-caret .5s step-end infinite;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 75% }
+}
+
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    30% { border-color: white }
+}
+
+img {
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vimage{
+    margin: 0 1em 1em 0 ;
+    float: left;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    background-color: #FFFFFF;
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+
+}
+
+div.gallery img {
+    width: 300px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 div.container {
     position: relative;
-    width: 100%;
+    text-align: center;
+    display: block;
 }
 
-article {
+div.abouttext {
     position: static;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+div.about {
+     position: relative;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+div.aboutmemleft {
+     position: relative;
+    display: block;
+    text-align: left;
+    margin-left: 200px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+div.aboutsubleft {
+      position: relative;
+    display: block;
+    text-align: left;
+    margin-left: 250px;
+    font-size: 15px;
+}
+
+div.aboutsub {
+      position: relative;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    
 }
 
 form {
@@ -80,7 +186,7 @@ form {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .form_page input[type=submit] {
@@ -92,7 +198,7 @@ form {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .form_page input[type=submit]:hover {
@@ -109,8 +215,18 @@ div.submit_button {
     text-align: center;
 }
 
+li {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+	width: 84%;
+}
+
+ol {
+    text-align: center;
+}
+
 label {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #0000000;
 }
 
@@ -121,13 +237,53 @@ textarea {
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1 {
+h2 {
     color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
 }
 
+h3{
+	color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
 p {
     color: #000000;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 200px;
+    font-size: 25px;
+    white-space: pre-wrap;
 }
+
+section {
+    width: 100%;
+    position: static;
+}
+
+article {
+    position: static;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+    height: 400px;
+
+}
+
+footer {
+    position: static;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #333; 
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer {
+    height: 100px;
