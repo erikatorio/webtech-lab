@@ -1,0 +1,11 @@
+oralIn.jpg = http://learn.e-limu.org/topic/view/?t=15&c=2
+
+Pol10.jpg = https://www.facebook.com/354229194649139/photos/a.354229691315756.79335.354229194649139/1692576804147698/?type=1&theater
+
+GenAss.jpg = https://www.facebook.com/354229194649139/photos/a.809607185778002.1073741827.354229194649139/1726297254108986/?type=3&theater
+
+index.jpg = https://byjus.com/biology/adolescence-and-drug-abuse/
+
+images2.jpg = https://depositphotos.com/93295326/stock-illustration-no-alcohol-drinks-sign.html
+
+image1.jpg = http://www.gezondheid.be/index.cfm?fuseaction=art&art_id=2562
