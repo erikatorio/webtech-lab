@@ -101,6 +101,7 @@ img {
 .vimage{
     margin: 0 1em 1em 0 ;
     float: left;
+    border: 10px solid #192a56;
 }
 
 .gallery {
@@ -180,7 +181,7 @@ img {
     font-family: 'Rasa', serif;
 }
 
-s.aboutsub {
+.aboutsub {
     position: relative;
     display: block;
     text-align: center;
@@ -221,13 +222,13 @@ form {
     background-color: #273c75;
 }
 
-div.form_page {
+.form_page {
     border-radius: 5px;
     background-color: #f5f6fa;
     padding: 20px;
 }
 
-div.submit_button {
+.submit_button {
     text-align: center;
 }
 
@@ -250,6 +251,7 @@ ul {
 label {
     font-family: 'Suez One', serif;
     color: #273c75;
+    text-align: center;
 }
 
 textarea {
@@ -260,12 +262,14 @@ textarea {
     margin: 8px 0;
     border: 1px solid #ccc;
     font-family: 'Rasa', serif;
+    font-size: 12px;
 }
 
 h2 {
     color: #273c75;
     font-family: 'Suez One', serif;
     font-size: 40px;
+    text-align: center;
 }
 
 h3{
@@ -317,4 +321,8 @@ footer {
 
 .footer {
     height: 100px;
+}
+
+b {
+    text-align: center;
 }
