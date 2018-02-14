@@ -270,6 +270,8 @@ h2 {
     font-family: 'Suez One', serif;
     font-size: 40px;
     text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dcdde1;
 }
 
 h3{
