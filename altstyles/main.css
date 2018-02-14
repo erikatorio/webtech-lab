@@ -79,14 +79,13 @@ header {
   	text-shadow: 0 0 80px rgba(255,255,255,.5);
 	background: url("./header-background/header.png") repeat-y;
 	-webkit-background-clip: text;
-	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-animation: barber_like 80s linear infinite;
 	-webkit-transform: translate3d(0,0,0);
 	-webkit-backface-visibility: hidden;
 }
 
-@-webkit-keyframes barber_like {
+@keyframes barber_like {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
 }
